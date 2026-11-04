@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="新制作展デジタルアーカイブ 作家Aの作品・経歴紹介サンプルページ">
+  <title>作家A｜新制作展 デジタルアーカイブ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <span class="brand-jp">新制作展</span>
+      <span class="brand-sub">DIGITAL ARTIST ARCHIVE</span>
+    </a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#profile">作家プロフィール</a>
+      <a href="#works">作品アーカイブ</a>
+      <a href="#history">出展歴</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ARTIST ARCHIVE / SAMPLE</p>
+        <h1>作家 A</h1>
+        <p class="roman">Artist A</p>
+        <p class="hero-message">形の奥にある、静かな生命を求めて。</p>
+      </div>
+      <div class="hero-image" role="img" aria-label="作家Aの肖像サンプル画像"></div>
+      <div class="hero-note">新制作展 デジタルアーカイブ</div>
+    </section>
+
+    <section class="intro section-wrap" id="profile">
+      <div class="portrait-wrap">
+        <img src="img/artist-a-portrait.jpg" alt="作家Aの肖像サンプル画像">
+        <span class="image-caption">肖像写真（サンプル）</span>
+      </div>
+      <div class="profile">
+        <p class="section-kicker">PROFILE</p>
+        <h2>作家プロフィール</h2>
+        <p class="artist-name">作家 A <span>（さっか・エー）</span></p>
+        <dl class="profile-list">
+          <div><dt>生年</dt><dd>1965年</dd></div>
+          <div><dt>出身</dt><dd>東京都</dd></div>
+          <div><dt>学歴</dt><dd>東京芸術大学 美術学部 彫刻科 卒業（架空）</dd></div>
+          <div><dt>主な素材</dt><dd>ブロンズ、石、木</dd></div>
+          <div><dt>所属</dt><dd>新制作協会 会員（サンプル設定）</dd></div>
+        </dl>
+        <h3>略歴</h3>
+        <ul class="career">
+          <li><time>1990年</time><span>彫刻作品の制作を本格的に開始</span></li>
+          <li><time>1995年</time><span>新制作展 初出品（架空）</span></li>
+          <li><time>2005年</time><span>新制作展 新人賞受賞（架空）</span></li>
+          <li><time>2010年</time><span>個展「かたちと記憶」開催（架空）</span></li>
+          <li><time>2025年</time><span>新制作展 出品（架空）</span></li>
+        </ul>
+      </div>
+      <aside class="statement">
+        <p class="section-kicker">ARTIST STATEMENT</p>
+        <h2>作家のことば</h2>
+        <p>日常の中にある小さな生命の営みや、時間が残す痕跡に目を向けています。</p>
+        <p>素材と向き合いながら、目に見える形の奥にある気配や記憶を、彫刻として表現したいと考えています。</p>
+        <p class="signature">作家 A</p>
+      </aside>
+    </section>
+
+    <section class="featured section-wrap">
+      <div class="section-heading">
+        <div><p class="section-kicker">FEATURED WORK</p><h2>代表作品</h2></div>
+        <span class="section-en">SELECTED WORKS</span>
+      </div>
+      <div class="featured-grid">
+        <img src="img/work-feature.jpg" alt="ブロンズ彫刻『思索する蛙』サンプル画像">
+        <div class="featured-text">
+          <p class="work-year">2024 / BRONZE</p>
+          <h3>思索する蛙</h3>
+          <p>身近な生きものの姿を通して、静けさとユーモア、そして生きることの力強さを表現した作品です。</p>
+          <dl><div><dt>素材</dt><dd>ブロンズ</dd></div><div><dt>寸法</dt><dd>H28 × W35 × D30 cm</dd></div><div><dt>制作年</dt><dd>2024年</dd></div></dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section-wrap" id="works">
+      <div class="section-heading">
+        <div><p class="section-kicker">WORKS ARCHIVE</p><h2>作品アーカイブ</h2></div>
+        <span class="section-en">BY YEAR</span>
+      </div>
+      <div class="filter-bar" role="group" aria-label="作品の年度絞り込み">
+        <button class="filter-button is-active" data-year="all">すべて</button>
+        <button class="filter-button" data-year="2025">2025年</button>
+        <button class="filter-button" data-year="2024">2024年</button>
+        <button class="filter-button" data-year="2023">2023年</button>
+      </div>
+      <div class="work-grid">
+        <article class="work-card" data-work-year="2025">
+          <button class="image-button" data-full="img/work-2025-frog.jpg" data-title="蛙の像">
+            <img src="img/work-2025-frog.jpg" alt="ブロンズ作品 蛙の像">
+          </button>
+          <p class="work-year">2025 / BRONZE</p><h3>蛙の像</h3><p class="work-meta">ブロンズ・H40 × W50 × D45 cm</p>
+        </article>
+        <article class="work-card" data-work-year="2025">
+          <button class="image-button" data-full="img/work-2025-form.jpg" data-title="静かな時間">
+            <img src="img/work-2025-form.jpg" alt="抽象彫刻 静かな時間">
+          </button>
+          <p class="work-year">2025 / BRONZE</p><h3>静かな時間</h3><p class="work-meta">ブロンズ・H60 × W25 × D25 cm</p>
+        </article>
+        <article class="work-card" data-work-year="2024">
+          <button class="image-button" data-full="img/work-2024-memory.jpg" data-title="かたちの記憶">
+            <img src="img/work-2024-memory.jpg" alt="抽象彫刻 かたちの記憶">
+          </button>
+          <p class="work-year">2024 / BRONZE</p><h3>かたちの記憶</h3><p class="work-meta">ブロンズ・H35 × W45 × D30 cm</p>
+        </article>
+        <article class="work-card" data-work-year="2023">
+          <button class="image-button" data-full="img/work-2023-dream.jpg" data-title="夢のあと">
+            <img src="img/work-2023-dream.jpg" alt="抽象彫刻 夢のあと">
+          </button>
+          <p class="work-year">2023 / BRONZE</p><h3>夢のあと</h3><p class="work-meta">ブロンズ・H30 × W55 × D35 cm</p>
+        </article>
+        <article class="work-card" data-work-year="2023">
+          <button class="image-button" data-full="img/work-2023-wind.jpg" data-title="風のかたち">
+            <img src="img/work-2023-wind.jpg" alt="抽象彫刻 風のかたち">
+          </button>
+          <p class="work-year">2023 / BRONZE</p><h3>風のかたち</h3><p class="work-meta">ブロンズ・H70 × W25 × D20 cm</p>
+        </article>
+      </div>
+      <p class="sample-notice">※作品名・制作年・素材・寸法・作品解説はすべて架空のサンプルです。</p>
+    </section>
+
+    <section class="history section-wrap" id="history">
+      <div>
+        <p class="section-kicker">EXHIBITION HISTORY</p>
+        <h2>主な出展・活動履歴</h2>
+      </div>
+      <ol class="timeline">
+        <li><time>2025年</time><span>新制作展 出品（架空）</span></li>
+        <li><time>2024年</time><span>新制作展 出品（架空）</span></li>
+        <li><time>2023年</time><span>新制作展 出品（架空）</span></li>
+        <li><time>2020年</time><span>個展「かたちと記憶」開催（架空）</span></li>
+        <li><time>2018年</time><span>新制作展 出品（架空）</span></li>
+      </ol>
+      <div class="qr-panel">
+        <img src="img/artist-a-qr.png" alt="作家AページのサンプルQRコード" onerror="this.style.display='none'">
+        <p>作家A 専用QRコード</p>
+        <small>※現在はサンプルURLです。公開時に実際のページURLへ差し替えます。</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>新制作展 デジタルアーカイブ</span>
+    <span>本ページは企画提案用の架空サンプルです。</span>
+    <span>© 2026 Shinseisaku Exhibition Digital Archive</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="作品画像拡大" hidden>
+    <button class="lightbox-close" aria-label="閉じる">×</button>
+    <img src="" alt="">
+    <p></p>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
