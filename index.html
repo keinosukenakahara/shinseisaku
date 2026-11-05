@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="新制作展 デジタルアーカイブ。作家のプロフィールや作品、創作の歩みをご紹介します。">
+  <title>新制作展｜デジタルアーカイブ</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Yu Gothic", "Meiryo", sans-serif;
+      color: #26332e;
+      background: #f7f7f3;
+      line-height: 1.8;
+    }
+
+    header {
+      padding: 65px 20px;
+      text-align: center;
+      color: #fff;
+      background: #173e32;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(28px, 5vw, 42px);
+      letter-spacing: 0.08em;
+    }
+
+    header p {
+      margin: 0;
+      color: #e1e8e2;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 55px auto;
+      padding: 0 22px;
+    }
+
+    .intro {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .artists {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .artist-card {
+      padding: 28px;
+      background: #fff;
+      border: 1px solid #e5e8e3;
+      border-radius: 12px;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.04);
+    }
+
+    .artist-card h2 {
+      margin-top: 0;
+      color: #173e32;
+    }
+
+    .artist-card a {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 22px;
+      color: #fff;
+      background: #173e32;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .artist-card a:hover {
+      background: #285b49;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #e1e8e2;
+      background: #173e32;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>新制作展</h1>
+    <p>デジタルアーカイブ</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>作家と作品を知る</h2>
+      <p>
+        作家それぞれの創作活動や作品の背景をご紹介します。
+        気になる作家を選んでご覧ください。
+      </p>
+    </section>
+
+    <section class="artists">
+
+      <article class="artist-card">
+        <h2>Artist A</h2>
+        <p>作家プロフィール、作品紹介、これまでの創作活動をご覧いただけます。</p>
+        <a href="./artistA/index.html">作品・プロフィールを見る</a>
+      </article>
+
+      <article class="artist-card">
+        <h2>Artist B</h2>
+        <p>作家プロフィール、作品紹介、これまでの創作活動をご覧いただけます。</p>
+        <a href="./artistB/index.html">作品・プロフィールを見る</a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    新制作展 デジタルアーカイブ実証実験
+  </footer>
+
+</body>
+</html>
